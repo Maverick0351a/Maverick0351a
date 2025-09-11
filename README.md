@@ -1,16 +1,24 @@
-## Hi there 👋
+# RIFT_SIMLAB_TUNED_with_analysis
 
-<!--
-**Maverick0351a/Maverick0351a** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Minimal environment setup and usage instructions.
 
-Here are some ideas to get you started:
+## Quickstart (Windows / PowerShell)
+```powershell
+py -3.11 -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Run analysis
+Place (or generate) a sweep CSV at `simlab/paper/wm_sweep.csv` (or set env var `RIFT_SWEEP_CSV`). Then:
+```powershell
+python -m simlab.experiments.analyze_wm_sweep
+```
+Outputs (created if absent):
+- `simlab/paper/figures/A_wm_effects.csv`
+- `simlab/paper/figures/A_wm_acc_diff_CI.png`
+
+## Notes
+- Dependencies kept minimal: numpy + matplotlib.
+- Adjust versions in `requirements.txt` if you need stricter reproducibility (pin exact versions, e.g. `numpy==1.26.4`).

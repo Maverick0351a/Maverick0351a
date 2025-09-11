@@ -1,0 +1,4 @@
+# Core runtime dependencies for this project
+# Pin minimally for reproducibility but allow patch updates.
+numpy>=1.26,<3
+matplotlib>=3.8,<3.9

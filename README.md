@@ -10,6 +10,7 @@ My work spans agent memory, finite mathematics, and security testing. I care abo
 
 | Project | Focus |
 | :-- | :-- |
+| [Finite Congruence Checks](https://github.com/Maverick0351a/finite-congruence-checks) | Validation of OpenAI math's finite congruence graph criterion through bounded experiments and Lean proof checks |
 | [Oscillink Safety Ops](https://github.com/Maverick0351a/oscillink-safety-ops) | Independent safety supervision for AI-controlled industrial equipment |
 | [Causal Memory Routing Lab](https://github.com/Maverick0351a/causal-memory-routing-lab) | Synthetic experiments in routing, confidence, memory, and forgetting |
 | [PrepQC Exploitation](https://github.com/Maverick0351a/prepqc-exploitation) | Reproducible tests for post-quantum cryptography |

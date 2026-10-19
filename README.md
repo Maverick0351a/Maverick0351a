@@ -1,24 +1,29 @@
-# RIFT_SIMLAB_TUNED_with_analysis
+# Travis Johnson
 
-Minimal environment setup and usage instructions.
+**AI systems · Mathematical verification · Security research**
 
-## Quickstart (Windows / PowerShell)
-```powershell
-py -3.11 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
+Combat Marine veteran and independent builder. I develop tools that make experiments easier to reproduce, inspect, and challenge.
 
-## Run analysis
-Place (or generate) a sweep CSV at `simlab/paper/wm_sweep.csv` (or set env var `RIFT_SWEEP_CSV`). Then:
-```powershell
-python -m simlab.experiments.analyze_wm_sweep
-```
-Outputs (created if absent):
-- `simlab/paper/figures/A_wm_effects.csv`
-- `simlab/paper/figures/A_wm_acc_diff_CI.png`
+My work spans agent memory, finite mathematics, and security testing. I care about the gap between an interesting result and evidence someone else can check.
 
-## Notes
-- Dependencies kept minimal: numpy + matplotlib.
-- Adjust versions in `requirements.txt` if you need stricter reproducibility (pin exact versions, e.g. `numpy==1.26.4`).
+### Selected work
+
+| Project | Focus |
+| :-- | :-- |
+| [Oscillink Safety Ops](https://github.com/Maverick0351a/oscillink-safety-ops) | Independent safety supervision for AI-controlled industrial equipment |
+| [Causal Memory Routing Lab](https://github.com/Maverick0351a/causal-memory-routing-lab) | Synthetic experiments in routing, confidence, memory, and forgetting |
+| [PrepQC Exploitation](https://github.com/Maverick0351a/prepqc-exploitation) | Reproducible tests for post-quantum cryptography |
+| [Oscillink Agent](https://github.com/Maverick0351a/oscillink-agent) | Cited project memory and continuity for coding agents |
+
+### How I work
+
+- Keep runnable experiments, source versions, and evidence together.
+- Use independent checks and document the limits of each result.
+- Retain negative results and corrections as part of the research record.
+- Use AI-assisted development with explicit verification and review.
+
+These repositories contain research tools and experiments. Each project's documentation describes its maturity, tested scope, and remaining work.
+
+For a question, reproduction result, or technical discussion, open an issue in the relevant repository.
+
+<sub>Earlier simulation work in this repository: [SimLab setup and analysis](docs/SIMLAB.md).</sub>

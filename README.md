@@ -1,8 +1,10 @@
 # Travis Johnson
 
-**AI systems · Mathematical verification · Security research**
+**Security research · Risk and compliance · AI systems**
 
 Combat Marine veteran and independent builder. I develop tools that make experiments easier to reproduce, inspect, and challenge.
+
+Before moving into tech I worked in EHS and compliance, running inspections, incident investigations, corrective-action tracking and training. I also do authorized bug bounty research on Bugcrowd.
 
 My work spans agent memory, finite mathematics, and security testing. I care about the gap between an interesting result and evidence someone else can check.
 
@@ -14,6 +16,7 @@ My work spans agent memory, finite mathematics, and security testing. I care abo
 | [Oscillink Safety Ops](https://github.com/Maverick0351a/oscillink-safety-ops) | Independent safety supervision for AI-controlled industrial equipment |
 | [Causal Memory Routing Lab](https://github.com/Maverick0351a/causal-memory-routing-lab) | Synthetic experiments in routing, confidence, memory, and forgetting |
 | [PrepQC Exploitation](https://github.com/Maverick0351a/prepqc-exploitation) | Reproducible tests for post-quantum cryptography |
+| [BountyBreak](https://github.com/Maverick0351a/bountybreak) | Local-first scope, asset and evidence tracking for authorized bug bounty work |
 | [Oscillink Agent](https://github.com/Maverick0351a/oscillink-agent) | Cited project memory and continuity for coding agents |
 
 ### How I work

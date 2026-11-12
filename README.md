@@ -8,6 +8,10 @@ Before moving into tech I worked in EHS and compliance, running inspections, inc
 
 My work spans agent memory, finite mathematics, and security testing. I care about the gap between an interesting result and evidence someone else can check.
 
+### Shipped
+
+**[rapidbm25](https://github.com/Maverick0351a/rapidbm25)**: a Rust drop-in replacement for the abandoned `rank_bm25` library, with bit-for-bit identical scores and 1,000x+ faster search. You can install it with `pip install rapidbm25`. It's also listed on the official MCP Registry so AI agents can use it directly.
+
 ### Selected work
 
 | Project | Focus |
